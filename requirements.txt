@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+spacy
+pydantic<2.0
+spacy[transformers]
+
+
