@@ -65,8 +65,7 @@ async def root():
 # 🚀 Render'ın PORT değişkenini algılaması için ekleme:
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 8000))  # Render'ın PORT değişkenini al
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    port = int(os.environ.get("PORT", 10000))  # Rende
 
     
 
